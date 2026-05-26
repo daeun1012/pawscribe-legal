@@ -9,6 +9,7 @@ GitHub Pages로 배포되며, App Store / Google Play 심사에 필요한 URL을
 | 파일 | 용도 | URL |
 | --- | --- | --- |
 | `index.html` | 랜딩 (법적 안내 인덱스) | `https://daeun1012.github.io/pawscribe-legal/` |
+| `privacy-policy.html` | 개인정보처리방침 (PIPA + GDPR) | `https://daeun1012.github.io/pawscribe-legal/privacy-policy.html` |
 | `account-deletion.html` | 계정 및 데이터 삭제 요청 안내 (Google Play 정책 필수) | `https://daeun1012.github.io/pawscribe-legal/account-deletion.html` |
 
 ## 수정
