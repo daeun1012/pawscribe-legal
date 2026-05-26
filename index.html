@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pawscribe</title>
+    <meta
+      name="description"
+      content="Pawscribe — AI 강아지 일기 앱의 법적 안내 페이지"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #fafaf7;
+        --fg: #1a1a1a;
+        --muted: #666;
+        --link: #2563eb;
+        --border: #e5e5e0;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1a1a1a;
+          --fg: #f5f5f0;
+          --muted: #a0a0a0;
+          --link: #60a5fa;
+          --border: #2a2a2a;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo',
+          system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.6;
+        margin: 0;
+        padding: 2rem 1.25rem;
+        max-width: 640px;
+        margin-inline: auto;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.5rem;
+      }
+      .tagline {
+        color: var(--muted);
+        margin: 0 0 2rem;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav li {
+        border-top: 1px solid var(--border);
+      }
+      nav li:last-child {
+        border-bottom: 1px solid var(--border);
+      }
+      nav a {
+        display: block;
+        padding: 1rem 0;
+        color: var(--link);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 3rem;
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pawscribe</h1>
+    <p class="tagline">AI 강아지 일기 앱 — 법적 안내</p>
+    <nav>
+      <ul>
+        <li><a href="./account-deletion.html">계정 및 데이터 삭제 요청</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <p>문의: daeun9294+pawscribe@gmail.com</p>
+    </footer>
+  </body>
+</html>
